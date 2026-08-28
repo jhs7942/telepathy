@@ -8,8 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "format": "prettier . --write --ignore-path ../.prettierignore",
-    "format:check": "prettier . --check --ignore-path ../.prettierignore"
+    "typecheck": "tsc -b",
+    "test": "npm run test"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
@@ -35,10 +35,6 @@
     "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^6.1.0",
     "babel-plugin-react-compiler": "^1.0.0",
-    "oxlint": "^1.79.0",
-    "prettier": "^3.9.6",
-    "prettier-plugin-organize-imports": "^4.3.0",
-    "prettier-plugin-tailwindcss": "^0.8.1",
     "typescript": "~6.0.2",
     "vite": "^8.2.2"
   }
