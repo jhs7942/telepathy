@@ -4,6 +4,7 @@
   "ignorePatterns": [
     // Common
     "node_modules/**",
+    ".github/**",
 
     // Front-end
     "client/dist/**",

@@ -5,6 +5,7 @@ package-lock.json
 package.json
 coverage
 .oxlintrc.json
+.github
 
 # Front-end
 client/.prettierrc
