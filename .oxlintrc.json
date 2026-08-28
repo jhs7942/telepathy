@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "typescript", "oxc"],
+  "ignorePatterns": [
+    // Common
+    "node_modules/**",
+    ".github/**",
+
+    // Front-end
+    "client/dist/**",
+    "client/public/**",
+    "client/src/components/ui/**",
+  ],
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+  }
+}
