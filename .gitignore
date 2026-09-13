@@ -47,6 +47,12 @@ web_modules/
 # TypeScript cache
 *.tsbuildinfo
 
+# Generated source maps
+*.js.map
+
+# 서버 생성 과정에서 남은 내부 Git 메타데이터 백업
+server/.git.nested-backup/
+
 # Optional npm cache directory
 .npm
 

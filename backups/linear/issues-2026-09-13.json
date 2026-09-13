@@ -1,0 +1,1513 @@
+{
+  "exportedAt": "2026-09-13T13:26:44.2225300+09:00",
+  "workspace": "newtelepathy",
+  "team": "TEL",
+  "source": "Linear CLI 2.5.0",
+  "teamQueryIssueCount": 26,
+  "supplementalIssues": ["TEL-33"],
+  "issues": [
+    {
+      "id": "5df184c0-13cf-4509-a80f-487ac9f15e38",
+      "identifier": "TEL-32",
+      "title": "프로젝트 레포 세팅",
+      "url": "https://linear.app/newtelepathy/issue/TEL-32/프로젝트-레포-세팅",
+      "priority": 0,
+      "priorityLabel": "No priority",
+      "estimate": null,
+      "createdAt": "2026-08-28T13:48:33.73Z",
+      "updatedAt": "2026-08-28T13:55:54.36Z",
+      "state": {
+        "id": "ae558bd2-9783-4a57-a4fd-18f81e6ca1db",
+        "name": "Done",
+        "color": "#5e6ad2",
+        "type": "completed"
+      },
+      "assignee": {
+        "id": "bea37534-edcd-4525-9b59-c93b021aa962",
+        "name": "정현승",
+        "displayName": "saver7942",
+        "initials": "정현"
+      },
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "bf447b5b-b412-4b33-92e2-dcc25150b448",
+        "name": "텔레파시"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": []
+      }
+    },
+    {
+      "id": "69dc1b4c-1b67-4fec-a9cc-8532d80aae41",
+      "identifier": "TEL-17",
+      "title": "회원가입 쿠키만 Secure 없이 발급 — 60일 토큰이 HTTP 로 평문 전송",
+      "url": "https://linear.app/newtelepathy/issue/TEL-17/회원가입-쿠키만-secure-없이-발급-60일-토큰이-http-로-평문-전송",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-07-29T03:05:17.898Z",
+      "updatedAt": "2026-07-29T05:49:28.179Z",
+      "state": {
+        "id": "18ad364a-c93b-485b-9342-909f5fcb098a",
+        "name": "Backlog",
+        "color": "#bec2c8",
+        "type": "backlog"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": []
+      }
+    },
+    {
+      "id": "5fa218b0-de80-401a-9625-a5a82f93fcbd",
+      "identifier": "TEL-16",
+      "title": "TEL-15 세션 인계 — 로그인·회원가입·비밀번호·휴대폰인증 완료, 탈퇴·닉네임·게스트 남음",
+      "url": "https://linear.app/newtelepathy/issue/TEL-16/tel-15-세션-인계-로그인회원가입비밀번호휴대폰인증-완료-탈퇴닉네임게스트-남음",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-07-28T15:35:38.749Z",
+      "updatedAt": "2026-08-04T06:59:08.032Z",
+      "state": {
+        "id": "18ad364a-c93b-485b-9342-909f5fcb098a",
+        "name": "Backlog",
+        "color": "#bec2c8",
+        "type": "backlog"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "c1bdd759-af33-4c10-8729-908658fa1d9e",
+            "type": "related",
+            "issue": {
+              "id": "988496b9-9e32-4147-8531-b9e86a6e77e2",
+              "identifier": "TEL-29",
+              "state": {
+                "type": "started"
+              }
+            }
+          },
+          {
+            "id": "42c5c2a7-cb6b-4cbd-ba2a-7a89af1f6dd4",
+            "type": "related",
+            "issue": {
+              "id": "89192ede-7a00-47b7-b3fc-6173b905bf3f",
+              "identifier": "TEL-21",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "8902fc6c-6162-4dfa-8cc4-23537d4412de",
+            "type": "related",
+            "issue": {
+              "id": "e2585a6a-a269-46f7-b38b-4baafca31ee9",
+              "identifier": "TEL-20",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "6596ab15-9e03-473f-9a20-0f5eb68dd538",
+      "identifier": "TEL-34",
+      "title": "테스트: 이슈 속성 지정 확인",
+      "url": "https://linear.app/newtelepathy/issue/TEL-34/테스트-이슈-속성-지정-확인",
+      "priority": 3,
+      "priorityLabel": "Medium",
+      "estimate": null,
+      "createdAt": "2026-09-13T04:14:59.711Z",
+      "updatedAt": "2026-09-13T04:14:59.711Z",
+      "state": {
+        "id": "18ad364a-c93b-485b-9342-909f5fcb098a",
+        "name": "Backlog",
+        "color": "#bec2c8",
+        "type": "backlog"
+      },
+      "assignee": {
+        "id": "bea37534-edcd-4525-9b59-c93b021aa962",
+        "name": "정현승",
+        "displayName": "saver7942",
+        "initials": "정현"
+      },
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": null,
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": [
+          {
+            "id": "2a065ff5-15bb-434c-9b6e-efcc28306ed5",
+            "name": "type/chore",
+            "color": "#828282"
+          },
+          {
+            "id": "f9dea301-f9c0-4468-8155-cb1602edc394",
+            "name": "phase/design",
+            "color": "#4EA7FC"
+          },
+          {
+            "id": "f94618d9-50e5-47e4-9b99-3e26eb497dc9",
+            "name": "priority/medium",
+            "color": "#F2C94C"
+          }
+        ]
+      },
+      "inverseRelations": {
+        "nodes": []
+      }
+    },
+    {
+      "id": "1fb02fb7-d3a4-4720-b9fd-7d3a6f0bdb26",
+      "identifier": "TEL-19",
+      "title": "매칭 성사가 라운드 만료에 덮어써질 수 있다 — match_attempts 상태 전이에 가드가 없음",
+      "url": "https://linear.app/newtelepathy/issue/TEL-19/매칭-성사가-라운드-만료에-덮어써질-수-있다-match-attempts-상태-전이에-가드가-없음",
+      "priority": 3,
+      "priorityLabel": "Medium",
+      "estimate": null,
+      "createdAt": "2026-08-04T00:00:21.588Z",
+      "updatedAt": "2026-08-04T06:31:11.368Z",
+      "state": {
+        "id": "18ad364a-c93b-485b-9342-909f5fcb098a",
+        "name": "Backlog",
+        "color": "#bec2c8",
+        "type": "backlog"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "202179fd-f0d3-4ecc-b171-404dbbae507e",
+            "type": "related",
+            "issue": {
+              "id": "58aaed61-b3d5-474a-a98d-9e0d525526a1",
+              "identifier": "TEL-22",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "9fcb72a4-be11-405d-a65c-80a170f2e887",
+      "identifier": "TEL-18",
+      "title": "라운드 만료 처리를 cron 에서 라운드 경계로 이전 — 라운드 절반이 flush 되지 않는 문제",
+      "url": "https://linear.app/newtelepathy/issue/TEL-18/라운드-만료-처리를-cron-에서-라운드-경계로-이전-라운드-절반이-flush-되지-않는-문제",
+      "priority": 3,
+      "priorityLabel": "Medium",
+      "estimate": null,
+      "createdAt": "2026-08-03T14:54:57.766Z",
+      "updatedAt": "2026-08-04T06:31:11.368Z",
+      "state": {
+        "id": "18ad364a-c93b-485b-9342-909f5fcb098a",
+        "name": "Backlog",
+        "color": "#bec2c8",
+        "type": "backlog"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": [
+          {
+            "id": "9261d23a-9c21-4db7-8e13-4cf862ef97b9",
+            "name": "severity/medium",
+            "color": "#F2C94C"
+          },
+          {
+            "id": "3b54cfc9-c31f-4f1b-a092-fd30c22b9815",
+            "name": "type/fix",
+            "color": "#EB5757"
+          },
+          {
+            "id": "f9dea301-f9c0-4468-8155-cb1602edc394",
+            "name": "phase/design",
+            "color": "#4EA7FC"
+          }
+        ]
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "42f6bb5a-392d-486a-9ef5-b22f46585230",
+            "type": "related",
+            "issue": {
+              "id": "58aaed61-b3d5-474a-a98d-9e0d525526a1",
+              "identifier": "TEL-22",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "ec8125fc-71f2-4dc1-9a41-ce82ff790841",
+            "type": "related",
+            "issue": {
+              "id": "1fb02fb7-d3a4-4720-b9fd-7d3a6f0bdb26",
+              "identifier": "TEL-19",
+              "state": {
+                "type": "backlog"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "837c41b7-30ab-46d8-8e35-fb0c1a59221b",
+      "identifier": "TEL-13",
+      "title": "JWT 원문이 서버 로그에 평문 출력 — 로그 열람만으로 계정 탈취 가능",
+      "url": "https://linear.app/newtelepathy/issue/TEL-13/jwt-원문이-서버-로그에-평문-출력-로그-열람만으로-계정-탈취-가능",
+      "priority": 1,
+      "priorityLabel": "Urgent",
+      "estimate": null,
+      "createdAt": "2026-07-28T01:19:13.787Z",
+      "updatedAt": "2026-08-04T06:28:38.113Z",
+      "state": {
+        "id": "70ead55d-04a4-41df-af18-8cb3c8fbe0c7",
+        "name": "Todo",
+        "color": "#e2e2e2",
+        "type": "unstarted"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "2d7b010a-cfdc-4a77-9fb4-694068c50861",
+            "type": "related",
+            "issue": {
+              "id": "e2585a6a-a269-46f7-b38b-4baafca31ee9",
+              "identifier": "TEL-20",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "e665d386-9b62-4a15-aa3f-55dbbb895a3c",
+      "identifier": "TEL-12",
+      "title": "Supabase RLS 전 테이블 비활성 — 운영·v2-dev 양쪽 anon 키로 개인정보·대화 전체 접근 가능",
+      "url": "https://linear.app/newtelepathy/issue/TEL-12/supabase-rls-전-테이블-비활성-운영v2-dev-양쪽-anon-키로-개인정보대화-전체-접근-가능",
+      "priority": 1,
+      "priorityLabel": "Urgent",
+      "estimate": null,
+      "createdAt": "2026-07-28T01:18:56.521Z",
+      "updatedAt": "2026-08-04T06:28:38.113Z",
+      "state": {
+        "id": "70ead55d-04a4-41df-af18-8cb3c8fbe0c7",
+        "name": "Todo",
+        "color": "#e2e2e2",
+        "type": "unstarted"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "6f82d889-4d07-4e05-859e-d77348fe88b6",
+            "type": "related",
+            "issue": {
+              "id": "e2585a6a-a269-46f7-b38b-4baafca31ee9",
+              "identifier": "TEL-20",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "6533bdb8-95a1-4174-80c4-170f99751aa2",
+            "type": "related",
+            "issue": {
+              "id": "5fa218b0-de80-401a-9625-a5a82f93fcbd",
+              "identifier": "TEL-16",
+              "state": {
+                "type": "backlog"
+              }
+            }
+          },
+          {
+            "id": "532e276c-7f40-4274-8e45-ece689ef700b",
+            "type": "related",
+            "issue": {
+              "id": "49fdb5ac-dced-4c70-916f-43777e02ea26",
+              "identifier": "TEL-15",
+              "state": {
+                "type": "started"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "75595d3f-f8c0-4976-91ee-ae0bf942f7a3",
+      "identifier": "TEL-30",
+      "title": "1-4 게스트 발급·전환 — GUEST actor 신규 구현 및 회원 전환",
+      "url": "https://linear.app/newtelepathy/issue/TEL-30/1-4-게스트-발급전환-guest-actor-신규-구현-및-회원-전환",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-08-04T06:59:31.549Z",
+      "updatedAt": "2026-08-04T06:59:32.039Z",
+      "state": {
+        "id": "70ead55d-04a4-41df-af18-8cb3c8fbe0c7",
+        "name": "Todo",
+        "color": "#e2e2e2",
+        "type": "unstarted"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "4ae25270-b116-4f90-a31c-625471b19024",
+            "type": "blocks",
+            "issue": {
+              "id": "ef86e994-e4de-4115-80aa-bebe6afc5d04",
+              "identifier": "TEL-27",
+              "state": {
+                "type": "started"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "5240279c-66f7-4ee3-9cfd-53a0d69e961e",
+      "identifier": "TEL-23",
+      "title": "2-3 채팅 도메인 V2 전환 — chat_logs 를 세션·참여자·메시지 3테이블로",
+      "url": "https://linear.app/newtelepathy/issue/TEL-23/2-3-채팅-도메인-v2-전환-chat-logs-를-세션참여자메시지-3테이블로",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-08-04T06:31:49.273Z",
+      "updatedAt": "2026-08-04T06:31:49.607Z",
+      "state": {
+        "id": "70ead55d-04a4-41df-af18-8cb3c8fbe0c7",
+        "name": "Todo",
+        "color": "#e2e2e2",
+        "type": "unstarted"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "6a47b82d-b24a-4cff-a2a7-afb46fa1c27d",
+            "type": "blocks",
+            "issue": {
+              "id": "89192ede-7a00-47b7-b3fc-6173b905bf3f",
+              "identifier": "TEL-21",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "cd0836f5-30ee-4079-9db6-61b7f127e0d3",
+            "type": "blocks",
+            "issue": {
+              "id": "58aaed61-b3d5-474a-a98d-9e0d525526a1",
+              "identifier": "TEL-22",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "58aaed61-b3d5-474a-a98d-9e0d525526a1",
+      "identifier": "TEL-22",
+      "title": "2-2 매칭 도메인 V2 전환 — 큐·라운드·성사를 match_attempts / match_rounds 로",
+      "url": "https://linear.app/newtelepathy/issue/TEL-22/2-2-매칭-도메인-v2-전환-큐라운드성사를-match-attempts-match-rounds-로",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-08-04T06:31:11.368Z",
+      "updatedAt": "2026-08-04T06:37:17.94Z",
+      "state": {
+        "id": "70ead55d-04a4-41df-af18-8cb3c8fbe0c7",
+        "name": "Todo",
+        "color": "#e2e2e2",
+        "type": "unstarted"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "c1fd4a8e-1aee-408a-aeea-1656a7f8a011",
+            "type": "blocks",
+            "issue": {
+              "id": "89192ede-7a00-47b7-b3fc-6173b905bf3f",
+              "identifier": "TEL-21",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "89192ede-7a00-47b7-b3fc-6173b905bf3f",
+      "identifier": "TEL-21",
+      "title": "2-1 신원 모듈 마운트 전환 — verify-mvp 제거 및 레거시 auth 라우트 해제",
+      "url": "https://linear.app/newtelepathy/issue/TEL-21/2-1-신원-모듈-마운트-전환-verify-mvp-제거-및-레거시-auth-라우트-해제",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-08-04T06:30:29.69Z",
+      "updatedAt": "2026-08-04T08:40:28.925Z",
+      "state": {
+        "id": "70ead55d-04a4-41df-af18-8cb3c8fbe0c7",
+        "name": "Todo",
+        "color": "#e2e2e2",
+        "type": "unstarted"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "1ed05147-8baf-45bf-b49a-6a6614857e3e",
+            "type": "related",
+            "issue": {
+              "id": "75595d3f-f8c0-4976-91ee-ae0bf942f7a3",
+              "identifier": "TEL-30",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "4460fd2a-83fd-4c01-9d06-c8668c06971f",
+            "type": "related",
+            "issue": {
+              "id": "ef86e994-e4de-4115-80aa-bebe6afc5d04",
+              "identifier": "TEL-27",
+              "state": {
+                "type": "started"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "e2585a6a-a269-46f7-b38b-4baafca31ee9",
+      "identifier": "TEL-20",
+      "title": "앱 계층 V2 이행 2차 — 매칭·채팅·신고·결제 라우트 전환 및 레거시 마운트 해제",
+      "url": "https://linear.app/newtelepathy/issue/TEL-20/앱-계층-v2-이행-2차-매칭채팅신고결제-라우트-전환-및-레거시-마운트-해제",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-08-04T06:28:38.113Z",
+      "updatedAt": "2026-08-04T06:57:57.374Z",
+      "state": {
+        "id": "70ead55d-04a4-41df-af18-8cb3c8fbe0c7",
+        "name": "Todo",
+        "color": "#e2e2e2",
+        "type": "unstarted"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "015d4652-ce50-4022-8d81-a7a20f2c6493",
+            "type": "related",
+            "issue": {
+              "id": "ef86e994-e4de-4115-80aa-bebe6afc5d04",
+              "identifier": "TEL-27",
+              "state": {
+                "type": "started"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "6deef868-1e97-4d7b-85dc-305cd3665df2",
+      "identifier": "TEL-14",
+      "title": "/api/match/session-status 인증 누락 — 타인의 매칭 단어·상대 조회 가능",
+      "url": "https://linear.app/newtelepathy/issue/TEL-14/apimatchsession-status-인증-누락-타인의-매칭-단어상대-조회-가능",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-07-28T01:19:44.751Z",
+      "updatedAt": "2026-08-04T06:31:11.368Z",
+      "state": {
+        "id": "70ead55d-04a4-41df-af18-8cb3c8fbe0c7",
+        "name": "Todo",
+        "color": "#e2e2e2",
+        "type": "unstarted"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "156f698c-1ea6-47a7-a6f1-1bbdaff9905d",
+            "type": "related",
+            "issue": {
+              "id": "58aaed61-b3d5-474a-a98d-9e0d525526a1",
+              "identifier": "TEL-22",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "0a3b5ddb-f804-4aac-828d-7ddef9fc160f",
+      "identifier": "TEL-26",
+      "title": "2-6 콘텐츠·조회 도메인 V2 전환 — 댓글·단어장·회원 조회",
+      "url": "https://linear.app/newtelepathy/issue/TEL-26/2-6-콘텐츠조회-도메인-v2-전환-댓글단어장회원-조회",
+      "priority": 3,
+      "priorityLabel": "Medium",
+      "estimate": null,
+      "createdAt": "2026-08-04T06:32:45.224Z",
+      "updatedAt": "2026-08-04T09:04:01.737Z",
+      "state": {
+        "id": "70ead55d-04a4-41df-af18-8cb3c8fbe0c7",
+        "name": "Todo",
+        "color": "#e2e2e2",
+        "type": "unstarted"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "5546e914-65b3-4d11-b5bd-7b9fc1312297",
+            "type": "blocks",
+            "issue": {
+              "id": "89192ede-7a00-47b7-b3fc-6173b905bf3f",
+              "identifier": "TEL-21",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ed8d6c56-a72f-43a7-a219-7c51c8a8f29a",
+      "identifier": "TEL-25",
+      "title": "2-5 결제·아이템 도메인 V2 전환 — 확성기 잔액을 원장(ledger)으로, 계좌이체 지급 복구",
+      "url": "https://linear.app/newtelepathy/issue/TEL-25/2-5-결제아이템-도메인-v2-전환-확성기-잔액을-원장ledger으로-계좌이체-지급-복구",
+      "priority": 3,
+      "priorityLabel": "Medium",
+      "estimate": null,
+      "createdAt": "2026-08-04T06:32:29.354Z",
+      "updatedAt": "2026-08-04T06:35:56.026Z",
+      "state": {
+        "id": "70ead55d-04a4-41df-af18-8cb3c8fbe0c7",
+        "name": "Todo",
+        "color": "#e2e2e2",
+        "type": "unstarted"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "6ad796ca-8c2c-4b49-902d-4454cb6ca5d0",
+            "type": "blocks",
+            "issue": {
+              "id": "89192ede-7a00-47b7-b3fc-6173b905bf3f",
+              "identifier": "TEL-21",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "f10c933c-e0bb-4194-b246-f7964f3f7cfe",
+      "identifier": "TEL-24",
+      "title": "2-4 신고·피드백 도메인 V2 전환 — 한글 사유 배열을 코드 테이블로",
+      "url": "https://linear.app/newtelepathy/issue/TEL-24/2-4-신고피드백-도메인-v2-전환-한글-사유-배열을-코드-테이블로",
+      "priority": 3,
+      "priorityLabel": "Medium",
+      "estimate": null,
+      "createdAt": "2026-08-04T06:32:06.658Z",
+      "updatedAt": "2026-08-04T06:32:07.206Z",
+      "state": {
+        "id": "70ead55d-04a4-41df-af18-8cb3c8fbe0c7",
+        "name": "Todo",
+        "color": "#e2e2e2",
+        "type": "unstarted"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "4c0ce2a1-c29f-4746-b67d-6d23ac7bf979",
+            "type": "blocks",
+            "issue": {
+              "id": "89192ede-7a00-47b7-b3fc-6173b905bf3f",
+              "identifier": "TEL-21",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "988496b9-9e32-4147-8531-b9e86a6e77e2",
+      "identifier": "TEL-29",
+      "title": "1-3 닉네임 변경 V2 전환 — users + nickname_histories 2테이블 트랜잭션",
+      "url": "https://linear.app/newtelepathy/issue/TEL-29/1-3-닉네임-변경-v2-전환-users-nickname-histories-2테이블-트랜잭션",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-08-04T06:59:08.032Z",
+      "updatedAt": "2026-08-04T09:04:01.908Z",
+      "state": {
+        "id": "760f572c-f3d3-45e6-89f7-ea627442475e",
+        "name": "In Progress",
+        "color": "#f2c94c",
+        "type": "started"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "dd39a026-7f61-413a-815c-927f5da54649",
+            "type": "related",
+            "issue": {
+              "id": "0a3b5ddb-f804-4aac-828d-7ddef9fc160f",
+              "identifier": "TEL-26",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "44e3f0c1-7015-442e-aacb-d001883daf69",
+            "type": "blocks",
+            "issue": {
+              "id": "ef86e994-e4de-4115-80aa-bebe6afc5d04",
+              "identifier": "TEL-27",
+              "state": {
+                "type": "started"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "7b61e45b-0f42-4ff9-95bb-2ae19c62668e",
+      "identifier": "TEL-28",
+      "title": "1-2 회원 탈퇴 V2 전환 — users 물리 삭제를 actors.status = DELETED 로",
+      "url": "https://linear.app/newtelepathy/issue/TEL-28/1-2-회원-탈퇴-v2-전환-users-물리-삭제를-actorsstatus-deleted-로",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-08-04T06:58:37.008Z",
+      "updatedAt": "2026-08-04T08:40:29.112Z",
+      "state": {
+        "id": "760f572c-f3d3-45e6-89f7-ea627442475e",
+        "name": "In Progress",
+        "color": "#f2c94c",
+        "type": "started"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "c84443a4-af52-43a3-be36-7a58c2bc36eb",
+            "type": "related",
+            "issue": {
+              "id": "89192ede-7a00-47b7-b3fc-6173b905bf3f",
+              "identifier": "TEL-21",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "924758c5-9537-4366-b393-02c048ddde3c",
+            "type": "blocks",
+            "issue": {
+              "id": "ef86e994-e4de-4115-80aa-bebe6afc5d04",
+              "identifier": "TEL-27",
+              "state": {
+                "type": "started"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ef86e994-e4de-4115-80aa-bebe6afc5d04",
+      "identifier": "TEL-27",
+      "title": "1-1 공통 응답 규약 — ApiSuccess / ApiError 도입",
+      "url": "https://linear.app/newtelepathy/issue/TEL-27/1-1-공통-응답-규약-apisuccess-apierror-도입",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-08-04T06:57:57.374Z",
+      "updatedAt": "2026-08-04T08:14:29.435Z",
+      "state": {
+        "id": "760f572c-f3d3-45e6-89f7-ea627442475e",
+        "name": "In Progress",
+        "color": "#f2c94c",
+        "type": "started"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": []
+      }
+    },
+    {
+      "id": "49fdb5ac-dced-4c70-916f-43777e02ea26",
+      "identifier": "TEL-15",
+      "title": "앱 계층 V2 이행 1차 — 모듈 구조·Zod 도입 및 신원 모듈 전환",
+      "url": "https://linear.app/newtelepathy/issue/TEL-15/앱-계층-v2-이행-1차-모듈-구조zod-도입-및-신원-모듈-전환",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-07-28T07:34:30.881Z",
+      "updatedAt": "2026-08-04T06:58:37.008Z",
+      "state": {
+        "id": "760f572c-f3d3-45e6-89f7-ea627442475e",
+        "name": "In Progress",
+        "color": "#f2c94c",
+        "type": "started"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "84c4aa7f-a703-4710-acba-0b04c0bedf92",
+            "type": "related",
+            "issue": {
+              "id": "e2585a6a-a269-46f7-b38b-4baafca31ee9",
+              "identifier": "TEL-20",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "74d5514e-86b7-4695-8ee0-6416a1014418",
+            "type": "related",
+            "issue": {
+              "id": "69dc1b4c-1b67-4fec-a9cc-8532d80aae41",
+              "identifier": "TEL-17",
+              "state": {
+                "type": "backlog"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "3ebe5ae7-53a8-41f7-a3e3-e533de2e129f",
+      "identifier": "TEL-10",
+      "title": "프론트엔드 성능 최적화 실행 — 측정 기반 7개 항목 개선 적용",
+      "url": "https://linear.app/newtelepathy/issue/TEL-10/프론트엔드-성능-최적화-실행-측정-기반-7개-항목-개선-적용",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-07-23T01:14:03.62Z",
+      "updatedAt": "2026-07-27T04:56:11.357Z",
+      "state": {
+        "id": "760f572c-f3d3-45e6-89f7-ea627442475e",
+        "name": "In Progress",
+        "color": "#f2c94c",
+        "type": "started"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": [
+          {
+            "id": "2a065ff5-15bb-434c-9b6e-efcc28306ed5",
+            "name": "type/chore",
+            "color": "#828282"
+          },
+          {
+            "id": "eb445a98-2c9b-4852-ba10-b0fb3c518876",
+            "name": "phase/implement",
+            "color": "#4EA7FC"
+          }
+        ]
+      },
+      "inverseRelations": {
+        "nodes": []
+      }
+    },
+    {
+      "id": "c5107e81-100f-4b3e-8fd9-999447e1eb37",
+      "identifier": "TEL-11",
+      "title": "DB 정규화 실행 — ERD V2 설계·검증·Backfill 리허설",
+      "url": "https://linear.app/newtelepathy/issue/TEL-11/db-정규화-실행-erd-v2-설계검증backfill-리허설",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-07-27T14:27:29.497Z",
+      "updatedAt": "2026-08-04T06:32:45.224Z",
+      "state": {
+        "id": "760f572c-f3d3-45e6-89f7-ea627442475e",
+        "name": "In Progress",
+        "color": "#f2c94c",
+        "type": "started"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": null,
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": [
+          {
+            "id": "22467409-4e05-4400-8cd7-ad2e74f46664",
+            "name": "type/feat",
+            "color": "#BB87FC"
+          },
+          {
+            "id": "a1d9a5a3-f5bb-496c-801e-19a9630d0f93",
+            "name": "priority/high",
+            "color": "#F2994A"
+          },
+          {
+            "id": "eb445a98-2c9b-4852-ba10-b0fb3c518876",
+            "name": "phase/implement",
+            "color": "#4EA7FC"
+          }
+        ]
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "4e6661ef-14a6-4952-a391-d8b59fe6ede1",
+            "type": "related",
+            "issue": {
+              "id": "0a3b5ddb-f804-4aac-828d-7ddef9fc160f",
+              "identifier": "TEL-26",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "3e6104c4-985a-47c7-a73d-b7e26223193e",
+            "type": "related",
+            "issue": {
+              "id": "e2585a6a-a269-46f7-b38b-4baafca31ee9",
+              "identifier": "TEL-20",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "4091e7a5-71a7-45a6-8428-4fbb0357254f",
+            "type": "related",
+            "issue": {
+              "id": "49fdb5ac-dced-4c70-916f-43777e02ea26",
+              "identifier": "TEL-15",
+              "state": {
+                "type": "started"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "706ab466-a5c1-451c-9142-da3b8b4c53d0",
+      "identifier": "TEL-7",
+      "title": "인증·권한 보안 강화 1차 — 소켓·결제 신원 위조 차단",
+      "url": "https://linear.app/newtelepathy/issue/TEL-7/인증권한-보안-강화-1차-소켓결제-신원-위조-차단",
+      "priority": 2,
+      "priorityLabel": "High",
+      "estimate": null,
+      "createdAt": "2026-07-17T15:09:41.165Z",
+      "updatedAt": "2026-08-04T06:59:31.549Z",
+      "state": {
+        "id": "760f572c-f3d3-45e6-89f7-ea627442475e",
+        "name": "In Progress",
+        "color": "#f2c94c",
+        "type": "started"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": [
+          {
+            "id": "3b54cfc9-c31f-4f1b-a092-fd30c22b9815",
+            "name": "type/fix",
+            "color": "#EB5757"
+          },
+          {
+            "id": "eb445a98-2c9b-4852-ba10-b0fb3c518876",
+            "name": "phase/implement",
+            "color": "#4EA7FC"
+          }
+        ]
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "52d06583-4caa-44ad-af2f-45e852b873cf",
+            "type": "related",
+            "issue": {
+              "id": "75595d3f-f8c0-4976-91ee-ae0bf942f7a3",
+              "identifier": "TEL-30",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "32cc7bda-dcc6-4922-bd7e-b2d6efb72883",
+            "type": "related",
+            "issue": {
+              "id": "69dc1b4c-1b67-4fec-a9cc-8532d80aae41",
+              "identifier": "TEL-17",
+              "state": {
+                "type": "backlog"
+              }
+            }
+          },
+          {
+            "id": "bc6bd0ca-e2b6-43f2-9626-0a0664cd5bba",
+            "type": "related",
+            "issue": {
+              "id": "49fdb5ac-dced-4c70-916f-43777e02ea26",
+              "identifier": "TEL-15",
+              "state": {
+                "type": "started"
+              }
+            }
+          },
+          {
+            "id": "dde28541-499a-4cf7-8f4c-4d67a9f753d7",
+            "type": "related",
+            "issue": {
+              "id": "6deef868-1e97-4d7b-85dc-305cd3665df2",
+              "identifier": "TEL-14",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          },
+          {
+            "id": "5ebe69a2-5dbb-4ec3-ac83-9e98c0a2e4e6",
+            "type": "related",
+            "issue": {
+              "id": "837c41b7-30ab-46d8-8e35-fb0c1a59221b",
+              "identifier": "TEL-13",
+              "state": {
+                "type": "unstarted"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "013e39e8-68d1-4f9c-8423-2f1c61fb3b18",
+      "identifier": "TEL-31",
+      "title": "검색엔진 색인 정비 — 소프트 404 제거·경로별 메타·canonical 도입",
+      "url": "https://linear.app/newtelepathy/issue/TEL-31/검색엔진-색인-정비-소프트-404-제거경로별-메타canonical-도입",
+      "priority": 3,
+      "priorityLabel": "Medium",
+      "estimate": null,
+      "createdAt": "2026-08-07T01:33:46.405Z",
+      "updatedAt": "2026-08-08T01:33:56.798Z",
+      "state": {
+        "id": "760f572c-f3d3-45e6-89f7-ea627442475e",
+        "name": "In Progress",
+        "color": "#f2c94c",
+        "type": "started"
+      },
+      "assignee": {
+        "id": "bea37534-edcd-4525-9b59-c93b021aa962",
+        "name": "정현승",
+        "displayName": "saver7942",
+        "initials": "정현"
+      },
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": []
+      },
+      "inverseRelations": {
+        "nodes": []
+      }
+    },
+    {
+      "id": "9597978c-7ac7-4f8f-92f1-bd6ff7fcca1c",
+      "identifier": "TEL-9",
+      "title": "인증 폼 React Hook Form 도입 — 폼 검증 구조 통일 및 결함 개선",
+      "url": "https://linear.app/newtelepathy/issue/TEL-9/인증-폼-react-hook-form-도입-폼-검증-구조-통일-및-결함-개선",
+      "priority": 3,
+      "priorityLabel": "Medium",
+      "estimate": null,
+      "createdAt": "2026-07-21T08:52:59.548Z",
+      "updatedAt": "2026-07-27T04:56:08.369Z",
+      "state": {
+        "id": "760f572c-f3d3-45e6-89f7-ea627442475e",
+        "name": "In Progress",
+        "color": "#f2c94c",
+        "type": "started"
+      },
+      "assignee": null,
+      "team": {
+        "id": "5f119f20-aecf-41ac-853f-844205aa7477",
+        "key": "TEL",
+        "name": "Telepathy",
+        "cyclesEnabled": false,
+        "activeCycle": null
+      },
+      "project": {
+        "id": "dc941c7f-db12-44f7-b1ec-a058e23e04f2",
+        "name": "텔레파시 기술스택 마이그레이션 2차"
+      },
+      "projectMilestone": null,
+      "cycle": null,
+      "labels": {
+        "nodes": [
+          {
+            "id": "2a065ff5-15bb-434c-9b6e-efcc28306ed5",
+            "name": "type/chore",
+            "color": "#828282"
+          },
+          {
+            "id": "eb445a98-2c9b-4852-ba10-b0fb3c518876",
+            "name": "phase/implement",
+            "color": "#4EA7FC"
+          }
+        ]
+      },
+      "inverseRelations": {
+        "nodes": [
+          {
+            "id": "87f4b265-0dc8-4133-ad47-d24a1192c025",
+            "type": "related",
+            "issue": {
+              "id": "3ebe5ae7-53a8-41f7-a3e3-e533de2e129f",
+              "identifier": "TEL-10",
+              "state": {
+                "type": "started"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "TEL-33",
+      "title": "테스트: Linear 연동 확인",
+      "description": "Codex와 Linear CLI의 이슈 생성·연결 흐름을 확인하기 위한 테스트 이슈입니다. 실제 개발 작업은 포함하지 않습니다.",
+      "url": "https://linear.app/newtelepathy/issue/TEL-33/테스트-linear-연동-확인",
+      "branchName": "tel-33",
+      "state": {
+        "name": "Backlog",
+        "color": "#bec2c8"
+      },
+      "assignee": null,
+      "priority": 0,
+      "project": null,
+      "projectMilestone": null,
+      "cycle": null,
+      "team": {
+        "activeCycle": null
+      },
+      "labels": {
+        "nodes": []
+      },
+      "parent": null,
+      "children": {
+        "nodes": []
+      },
+      "comments": {
+        "nodes": []
+      },
+      "attachments": {
+        "nodes": []
+      },
+      "documents": {
+        "nodes": []
+      }
+    }
+  ]
+}

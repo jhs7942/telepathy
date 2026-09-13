@@ -1,0 +1,54 @@
+{
+  "description": "Codex 작업 변경 영수증을 기록합니다.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .codex/hooks/review_receipt.mjs baseline",
+            "commandWindows": "node .codex/hooks/review_receipt.mjs baseline",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .codex/hooks/review_receipt.mjs capture",
+            "commandWindows": "node .codex/hooks/review_receipt.mjs capture",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash|apply_patch|Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .codex/hooks/review_receipt.mjs capture",
+            "commandWindows": "node .codex/hooks/review_receipt.mjs capture",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .codex/hooks/review_receipt.mjs finalize",
+            "commandWindows": "node .codex/hooks/review_receipt.mjs finalize",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
