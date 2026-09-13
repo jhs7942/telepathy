@@ -1,18 +1,32 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
+  "plugins": ["typescript", "oxc", "promise"],
   "ignorePatterns": [
     // Common
     "node_modules/**",
     ".github/**",
+    ".next/**",
+    ".turbo/**",
+    "**/*.js.map",
 
     // Front-end
-    "client/dist/**",
-    "client/public/**",
-    "client/src/components/ui/**",
+    "apps/web/dist/**",
+    "apps/web/public/**"
   ],
   "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "typescript/no-explicit-any": "error",
+    "typescript/consistent-type-imports": "error",
+    "typescript/no-floating-promises": "error",
+    "promise/catch-or-return": "warn",
+    "promise/always-return": "warn"
   }
 }

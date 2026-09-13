@@ -1,20 +1,37 @@
 {
   "name": "telepathy",
   "private": true,
-  "workspaces": ["client"],
+  "packageManager": "npm@11.12.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "devDependencies": {
     "husky": "^9.1.7",
+    "lint-staged": "^17.5.1",
     "oxlint": "^1.80.0",
     "prettier": "^3.9.6",
     "prettier-plugin-organize-imports": "^4.3.0",
-    "prettier-plugin-tailwindcss": "^0.8.1"
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tsc-files": "^1.1.4",
+    "turbo": "^2.8.10"
   },
   "scripts": {
     "prepare": "husky",
-    "lint": "npm run lint --workspaces --if-present",
-    "typecheck": "npm run typecheck --workspaces --if-present",
-    "test": "npm run test --workspaces --if-present",
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
     "format": "prettier . --write",
     "format:check": "prettier . --check"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "oxlint",
+      "node scripts/typecheck-staged.mjs"
+    ],
+    "*.{css,json,md,mjs,cjs,js,yaml,yml}": "prettier --write"
   }
 }

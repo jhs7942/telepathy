@@ -47,6 +47,12 @@ web_modules/
 # TypeScript cache
 *.tsbuildinfo
 
+# Generated source maps
+*.js.map
+
+# 서버 생성 과정에서 남은 내부 Git 메타데이터 백업
+apps/server/.git.nested-backup/
+
 # Optional npm cache directory
 .npm
 
@@ -77,6 +83,9 @@ web_modules/
 # Next.js build output
 .next
 out
+
+# Turborepo cache
+.turbo
 
 # Nuxt.js build / generate output
 .nuxt

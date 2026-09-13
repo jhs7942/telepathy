@@ -1,0 +1,13 @@
+{
+  "extends": ["../../.oxlintrc.json"],
+  "plugins": ["typescript", "oxc", "promise", "import", "vitest"],
+  "rules": {
+    "typescript/consistent-type-imports": "off",
+    "typescript/no-unnecessary-parameter-property-assignment": "warn",
+    "import/no-cycle": "error",
+    "import/no-duplicates": "error",
+    "vitest/no-focused-tests": "error",
+    "vitest/no-disabled-tests": "warn",
+    "vitest/expect-expect": "error"
+  }
+}
