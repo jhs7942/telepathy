@@ -115,7 +115,9 @@ npm run test
 - 하나의 커밋은 하나의 목적만 담는다.
 - 커밋 메시지는 `<type>: <한국어 요약>` 형식을 사용한다.
 - 주요 type은 `feat`, `fix`, `refactor`, `test`, `docs`, `chore`, `style`, `perf`, `build`, `ci`이다.
-- 커밋 전에 Husky pre-commit의 format, lint, typecheck를 통과한다.
+- 커밋 전 Husky pre-commit은 staged TypeScript·TSX 파일에 Prettier, Oxlint, `tsc-files` 타입 검사를 실행한다.
+- staged 설정·문서·스타일 파일에는 Prettier를 실행한다.
+- 전체 `format:check`, `lint`, `typecheck`는 Pull Request 전과 설정·의존성 변경 후에 실행한다.
 - 사용자의 명시적인 요청 없이 커밋, push, branch 생성, PR 생성을 하지 않는다.
 - 이미 push한 공유 히스토리를 reset이나 force push로 재작성하지 않는다.
 

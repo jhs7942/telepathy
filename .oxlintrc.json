@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
+  "plugins": ["typescript", "oxc", "promise"],
   "ignorePatterns": [
     // Common
     "node_modules/**",
@@ -14,6 +14,19 @@
     "apps/web/public/**"
   ],
   "rules": {
-    "react/rules-of-hooks": "error"
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "typescript/no-explicit-any": "error",
+    "typescript/consistent-type-imports": "error",
+    "typescript/no-floating-promises": "error",
+    "promise/catch-or-return": "warn",
+    "promise/always-return": "warn"
   }
 }
