@@ -1,19 +1,7 @@
 # Common
 node_modules
 dist
-package-lock.json
-package.json
 coverage
-.oxlintrc.json
-.github
-
-# Front-end
-client/.prettierrc
-client/tsconfig.json
-client/tsconfig.app.json
-client/tsconfig.node.json
-client/vite.config.ts
-client/components.json
-client/src/components/ui
-client/src/lib/utils.ts
-client/src/index.css
+.next
+.turbo
+*.js.map

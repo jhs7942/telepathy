@@ -51,7 +51,7 @@ web_modules/
 *.js.map
 
 # 서버 생성 과정에서 남은 내부 Git 메타데이터 백업
-server/.git.nested-backup/
+apps/server/.git.nested-backup/
 
 # Optional npm cache directory
 .npm
@@ -83,6 +83,9 @@ server/.git.nested-backup/
 # Next.js build output
 .next
 out
+
+# Turborepo cache
+.turbo
 
 # Nuxt.js build / generate output
 .nuxt

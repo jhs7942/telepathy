@@ -5,14 +5,15 @@
     // Common
     "node_modules/**",
     ".github/**",
+    ".next/**",
+    ".turbo/**",
+    "**/*.js.map",
 
     // Front-end
-    "client/dist/**",
-    "client/public/**",
-    "client/src/components/ui/**",
+    "apps/web/dist/**",
+    "apps/web/public/**"
   ],
   "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+    "react/rules-of-hooks": "error"
   }
 }

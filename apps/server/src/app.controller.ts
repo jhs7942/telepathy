@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import type { HealthResponse } from '@telepathy/shared';
+import type { HealthResponse } from '@telepathy/types';
 import { AppService } from './app.service.js';
 
 @Controller('health')
