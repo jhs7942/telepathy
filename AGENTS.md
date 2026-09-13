@@ -48,18 +48,21 @@
 
 ```text
 telepathy/
-├─ client/    # React, TypeScript, Vite, Tailwind CSS, shadcn/ui
-├─ server/    # 백엔드 workspace 예정
+├─ apps/web/        # Next.js, React, TypeScript, Tailwind CSS, shadcn/ui
+├─ apps/server/     # NestJS 백엔드 workspace
+├─ packages/contracts/ # Zod 기반 런타임 API 계약
+├─ packages/types/     # 프런트·백엔드 공유 타입
 ├─ .husky/    # Git hooks
 └─ package.json
 ```
 
 - npm workspaces로 모노레포를 관리한다.
 - 공통 개발 도구와 설정은 루트에서 관리한다.
-- React, Vite, TypeScript 등 애플리케이션 전용 의존성은 해당 workspace에서 관리한다.
-- server가 생성되면 자신의 `package.json`, `lint`, `typecheck`, `test`, `build` 스크립트를 갖도록 한다.
-- 프런트와 백엔드가 공유하는 API 계약 타입은 향후 `packages/shared` 또는 동등한 공유 workspace로 분리한다.
-- 현재는 npm workspaces로 충분하므로 Turborepo를 도입하지 않는다. server, shared package, Docker/CI 빌드 캐싱의 실질적인 필요가 생길 때 재검토한다.
+- Next.js, React, TypeScript 등 애플리케이션 전용 의존성은 해당 workspace에서 관리한다.
+- `apps/server`는 자신의 `package.json`, `lint`, `typecheck`, `test`, `build` 스크립트를 갖는다.
+- 프런트와 백엔드가 공유하는 타입은 `packages/types`에서 관리한다.
+- HTTP·Socket.IO 외부 입력을 검증하는 Zod 런타임 계약은 `packages/contracts`에서 관리한다.
+- Turborepo는 현재 web·server·types·contracts workspace의 공통 빌드·검증 작업을 실행한다. 원격 캐시는 CI 빌드 시간이 측정상 병목일 때 도입 여부를 다시 판단한다.
 
 ## TypeScript 규칙
 
@@ -75,7 +78,7 @@ telepathy/
 - 모바일 웹과 Capacitor WebView 확장을 함께 고려한다.
 - 터치 대상의 크기, 키보드 포커스, 스크린리더 라벨, reduced motion을 고려한다.
 - shadcn/ui 컴포넌트를 가져올 때는 `components.json`과 현재 디자인 토큰을 기준으로 한다.
-- `client/src/components/ui` 파일을 무작정 일괄 수정하지 않고, 프로젝트 전용 조합은 상위 컴포넌트에서 만든다.
+- `apps/web/src/components/ui` 파일을 무작정 일괄 수정하지 않고, 프로젝트 전용 조합은 상위 컴포넌트에서 만든다.
 - 하나의 화면에서 아이콘 라이브러리와 디자인 규칙을 혼용하지 않는다.
 
 ## 의존성과 설정 규칙
